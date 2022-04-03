@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/petshow.css?6">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <script src="js/amazeui.lazyload.min.js"></script>
+
+
+</head>
+<body>
+<header class="am-topbar am-topbar-inverse">
+    <div class="amz-container">
+        <h1 class="am-topbar-brand">
+            <a href="#" class="am-topbar-logo"></a><img src="../大作业用图/A0A2F8A049D74B3570DC9C5A399A2C96.jpg" width="178" height="152"></h1>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#doc-topbar-collapse-5'}">
+            <span class="am-sr-only">
+                导航切换
+            </span>
+            <span class="am-icon-bars">
+            </span>
+        </button>
+        <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse-5">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class="am-active">
+                    <a href="主页.html">
+                        首页</a>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle="" href="javascript:;"></a>
+                    <ul class="am-dropdown-content">
+                      <li>
+                        <a href="#">
+                          宠物医院
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          宠物美容
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          宠物店铺
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          更多服务
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+  </div>
+</header>
+<div class="am-g bdfw_nr">
+  <div class="am-u-sm-12">
+    <div class="bdfw_nr_block">
+    <div class="bdfw_nr_block_l">
+  <div class="bdfw_nr_title">布兜宠物 Budoupet Store</div>
+  <div class="bdfw_nr_brief_info"><span class="bdfw_nr_brief_moreinfo">分类：宠物美容</span>  </div>
+  <div class="bdfw_nr_brief_address">地址：东城区 鼓楼东大街275号(近南锣鼓巷、姚记炒肝)</div>
+    <div class="bdfw_nr_brief_address">电话：010-56292129</div>
+    <div class="bdfw_nr_smalltitle">更多信息</div>
+    <div class="bdfw_nr_brief_info_nr">
+        <div class="bdfw_nr_brief_info_nr">
+            <span>周&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 边：</span>
+            <span>安徒生童话镇</span>
+            <span>撒哈拉沙漠</span>
+        </div>
+         <div class="bdfw_nr_brief_info_nr">
+            <span>营业时间：</span>
+            <span>除周三外10:00-20:00 周三为休店日</span>
+        </div>
+    </div>
+  </div>
+
+
+<div class="bdfw_nr_block_r">
+<a href="###"></a>
+<div class="bdfw_nr_block_r_info">
+<span><i class="am-icon-camera"></i></span></div>
+</div>
+
+
+</div>
+  </div>
+
+</div>
+<script>
+ $(function(){
+  auto_window_height();
+$(window).resize(function() {
+  auto_window_height();
+});
+  function auto_window_height(){
+  $('.bdfw_nr').css('min-height',$(window).height() - 52 - 220);
+  }
+});
+
+</script>
+</body>
+</html>

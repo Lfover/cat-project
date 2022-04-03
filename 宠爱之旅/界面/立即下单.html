@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>立即下单</title>
+<script type="text/javascript">
+function success(){
+	alert("系统正在自动生成你的计划，请稍后~~~");
+	total=3;
+	window.setTimeout(modifyTime, 1000);
+	alert("3秒后跳回哦！");
+		
+		
+		}		
+	function modifyTime(){
+		total--;
+		if(total>0){
+			window.setTimeout(modifyTime, 1000);
+		}else{
+			location="宠物快递首页.html";
+		}	
+	}
+</script>
+<style type="text/css">
+.啊1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+.cu {
+	font-weight: bold;
+}
+body {
+	background-image: url(%E8%83%8C%E6%99%AF.png);
+	background-color: #7092BE;
+}
+</style>
+</head>
+
+<body>
+<center>
+<table width="480" border="0">
+  <tr>
+    <td height="150"><table width="480" border="0" align="center">
+      <tr>
+        <td width="480"><a href="宠物快递首页.html"><img src="../大作业用图/返回.jfif" width="47" height="51" /> 返回</a></td>
+      </tr>
+    </table>
+    <p><img src="../大作业用图/托运3.jpg" width="521" height="185" /></p>
+    <table width="480" border="0">
+      <tr>
+        <td width="349" align="center" class="啊1"><div align="center">宠物快递下单</div></td>
+      </tr>
+      
+      <tr>
+        <td class="cu">尊敬的顾客，请输入您的以下信息：</td>
+      </tr>
+    </table>
+    <table width="480" border="0">
+      <tr>
+        <th width="80" align="left" scope="row"><strong>宠物品种</strong></th>
+        <td width="125"><form id="form2" name="form2" method="post" action="">
+          <label for="textfield"></label>
+          <input name="textfield" type="text" id="textfield" size="20" />
+        </form></td>
+        <td width="84" class="cu">所在省份</td>
+        <td width="141"><label for="select2"></label>
+          <select name="select2" id="select2">
+            <option>黑龙江</option>
+            <option>陕西</option>
+            <option>江苏</option>
+            <option>湖北</option>
+			<option>四川</option>
+			<option>广东</option>
+            <option value="1" selected="selected"></option>
+          </select></td>
+      </tr>
+      
+      <tr>
+        <th align="left" scope="row">宠物年龄</th>
+        <td><select name="select7" id="select7">
+          <option>1岁及以下</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12岁及以上</option>
+          <option value="1" selected="selected"></option>
+        </select></td>
+        <td class="cu">所在城市</td>
+        <td><label for="select3"></label>
+          <select name="select3" id="select3">
+            <option>哈尔滨</option>
+            <option>西安</option>
+            <option>南京</option>
+            <option>武汉</option>
+            <option>成都</option>
+			<option>广州</option>
+            <option value="1" selected="selected"></option>
+          </select></td>
+      </tr>
+      
+      <tr>
+        <th align="left" scope="row">主人姓名</th>
+        <td><input name="textfield3" type="text" id="textfield3" size="20" /></td>
+        <th align="left" scope="row">具体地址</th>
+        <td><input name="textfield3" type="text" id="textfield3" size="20" /></td>
+      </tr>
+      
+      <tr>
+        <th align="left" scope="row">主人电话</th>
+        <td><input name="textfield4" type="text" id="textfield4" size="20" /></td>
+        <td class="cu">运输方式</td>
+        <td><select name="select6" id="select6">
+          <option>专车</option>
+          <option>空运</option>
+          <option value="1" selected="selected"></option>
+        </select></td>
+      </tr>
+    </table>
+    <tr>
+        <td class="cu">收宠人信息：</td>
+    </tr>
+  </table>
+    <table width="480" border="0">
+      <tr>
+        <th width="80" align="left" scope="row"><strong>姓名</strong></th>
+        <td width="125"><form id="form2" name="form2" method="post" action="">
+          <label for="textfield"></label>
+          <input name="textfield" type="text" id="textfield" size="20" />
+        </form></td>
+        <td width="84" class="cu">所在省份</td>
+        <td width="141"><label for="select2"></label>
+          <select name="select2" id="select2">
+            <option>黑龙江</option>
+            <option>陕西</option>
+            <option>江苏</option>
+            <option>湖北</option>
+			<option>四川</option>
+			<option>广东</option>
+            <option value="1" selected="selected"></option>
+          </select></td>
+      </tr>
+      
+      <tr>
+        <th align="left" scope="row">电话</th>
+        <td><input name="textfield4" type="text" id="textfield4" size="20" /></td>
+        <td class="cu">所在城市</td>
+        <td><label for="select3"></label>
+          <select name="select3" id="select3">
+            <option>哈尔滨</option>
+            <option>西安</option>
+            <option>南京</option>
+            <option>武汉</option>
+            <option>成都</option>
+			<option>广州</option>
+            <option value="1" selected="selected"></option>
+          </select></td>
+      </tr>
+      
+      <tr>
+        <th align="left" scope="row">具体地址</th>
+        <td><input name="textfield3" type="text" id="textfield3" size="20" /></td>
+        <td class="cu">收宠方式</td>
+        <td><label for="select5"></label>
+          <select name="select5" id="select5">
+            <option>送宠上门</option>
+            <option>及时自取</option>
+            <option value="1" selected="selected"></option>
+          </select></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td align="right"><input type="submit" name="button" id="button" value="提交" onclick="success()"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" name="button2" id="button2" value="取消" /></td>
+  </tr>
+</table>
+<p align="left">&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+</center>
+</body>
+</html>
